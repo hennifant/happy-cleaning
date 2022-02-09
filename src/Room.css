@@ -9,11 +9,17 @@
   align-items: center;
 }
 
+.Room__heading {
+  font-style: italic;
+  font-size: bigger;
+}
+
 .Room__status {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background: gray;
+  border: none;
 }
 
 .Room__status--clean {
